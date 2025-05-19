@@ -1,0 +1,9 @@
+[package]
+name = "core"
+description = ""
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+diff = { path = "../diff" }
+metadata = { path = "../metadata" }

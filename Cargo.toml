@@ -1,0 +1,11 @@
+[workspace]
+resolver = "1"
+members = ["crates/*"]
+
+[workspace.dependencies]
+anyhow = "1.0"
+cargo_metadata = "0.19"
+clap = "4.5"
+git2 = "0.20.2"
+thiserror = "2.0"
+tracing = "0.1.41"
