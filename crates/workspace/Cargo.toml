@@ -1,0 +1,9 @@
+[package]
+name = "workspace"
+description = ""
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+cargo_metadata = { workspace = true }
+thiserror = { workspace = true }

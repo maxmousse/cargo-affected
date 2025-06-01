@@ -13,7 +13,7 @@ Each step aims to be small, testable, and to add meaningful utility.
 - Use `cargo metadata` to extract crate names and paths.
 - CLI:
   '''
-  cargo affected list
+  cargo affected workspace list-packages
   '''
 
 ---
